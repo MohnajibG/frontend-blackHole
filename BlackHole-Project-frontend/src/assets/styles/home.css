@@ -1,0 +1,39 @@
+.main-home {
+  display: flex;
+  background-color: rgba(134, 150, 150, 0.034);
+}
+
+.main-home h1 {
+  text-align: center;
+  padding: 5vw 10vw;
+  font-size: 52px;
+  font-weight: bolder;
+}
+.main-home h2 {
+  text-align: center;
+  padding: 2vw 10vw;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.main-home img {
+  width: 100%;
+}
+
+.date-copyright {
+  display: flex;
+  justify-content: space-around;
+  padding: 4vw;
+  font-size: 32px;
+}
+h3 {
+  padding: 1vw 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.explanation {
+  padding: 0 10vh;
+  text-align: justify;
+  margin-bottom: 5vw;
+}
