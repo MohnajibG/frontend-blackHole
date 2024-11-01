@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-import "../assets/styles/home.css";
+import "../assets/styles/Apod.css";
 
 interface HomePageData {
   copyright: string;
@@ -11,7 +11,7 @@ interface HomePageData {
   title: string;
 }
 
-export const Home: React.FC = () => {
+export const Apod: React.FC = () => {
   const [data, setData] = useState<HomePageData | null>(null);
   const fetchData = async () => {
     try {
@@ -35,11 +35,12 @@ export const Home: React.FC = () => {
           <img src={data.hdurl} alt="" />
           <div className="date-copyright">
             <h3>Date: {data.date}</h3>
-            <h3>Copyright: {data.copyright}</h3>
+            <h3>Image Credit & Copyright: {data.copyright}</h3>
           </div>
           <div className="explanation">
             <h3>Explanation:</h3>
             <p>{data.explanation}</p>
+            <a href="https://apod.nasa.gov/apod/archivepix.html">See More</a>
           </div>
         </div>
       ) : (

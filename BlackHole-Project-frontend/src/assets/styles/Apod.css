@@ -17,9 +17,17 @@
 }
 
 .main-home img {
+  text-align: center;
+  object-fit: cover;
+  height: 160vh;
+  transition: 0.3s ease;
+  height: 100vh;
   width: 100%;
 }
 
+.main-home img:hover {
+  filter: brightness(1.3);
+}
 .date-copyright {
   display: flex;
   justify-content: space-around;
