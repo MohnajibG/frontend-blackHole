@@ -1,40 +1,43 @@
-.main-home {
-  display: flex;
+.main-apod {
+  /* display: flex; */
   background-color: rgba(134, 150, 150, 0.034);
+  gap: 3vh;
 }
 
-.main-home h1 {
+.main-apod h1 {
   text-align: center;
   padding: 5vw 10vw;
   font-size: 52px;
   font-weight: bolder;
 }
-.main-home h2 {
+.main-apod h2 {
   text-align: center;
   padding: 2vw 10vw;
   font-size: 32px;
   font-weight: bold;
 }
 
-.main-home img {
+.main-apod img {
   text-align: center;
   object-fit: cover;
   height: 160vh;
-  transition: 0.3s ease;
-  height: 100vh;
+  height: 80vh;
   width: 100%;
 }
 
-.main-home img:hover {
-  filter: brightness(1.3);
-}
 .date-copyright {
   display: flex;
   justify-content: space-around;
   padding: 4vw;
   font-size: 32px;
 }
-h3 {
+.date-copyright span {
+  padding: 1vw 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.explanation h3 {
   padding: 1vw 0;
   font-size: 32px;
   font-weight: bold;
@@ -44,4 +47,8 @@ h3 {
   padding: 0 10vh;
   text-align: justify;
   margin-bottom: 5vw;
+}
+
+.link {
+  padding-top: 50px;
 }

@@ -1,0 +1,38 @@
+.main-epic {
+  background-color: rgba(156, 180, 180, 0.376);
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  overflow-y: scroll;
+}
+.main-epic h1 {
+  text-align: center;
+  padding: 5vw 10vw;
+  font-size: 42px;
+  font-weight: bolder;
+}
+
+.main-epic img {
+  object-fit: cover;
+  height: 160vh;
+  transition: 0.3s ease;
+  height: 50vh;
+  width: 50vh;
+}
+
+.main-epic img:hover {
+  filter: brightness(1.3);
+}
+.date {
+  text-align: center;
+  padding: 2vw;
+  font-size: 22px;
+}
+
+.caption {
+  padding: 3vh 0;
+  text-align: justify;
+  margin-bottom: 5vw;
+}
