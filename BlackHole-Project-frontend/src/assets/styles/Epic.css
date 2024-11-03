@@ -1,8 +1,10 @@
 .main-epic {
-  background-color: rgba(156, 180, 180, 0.376);
+  background-color: #3498db43;
+  height: 100vh;
 }
 
 .items {
+  margin: 0 100px;
   display: flex;
   justify-content: center;
   overflow-y: scroll;

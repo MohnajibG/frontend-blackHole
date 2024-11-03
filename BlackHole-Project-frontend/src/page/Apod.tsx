@@ -29,7 +29,6 @@ export const Apod: React.FC = () => {
   return (
     <main className="main-apod">
       <h1>Astronomy Picture of the Day</h1>
-      <div></div>
       {data ? (
         <div>
           <h2>{data.title}</h2>

@@ -43,7 +43,7 @@ export const Home: React.FC = () => {
           onChange={handleSearch}
           placeholder="Search for NASA images..."
         />
-        <button onClick={handleSearchSubmit}>🔍</button>
+        <button onClick={handleSearchSubmit}>Search</button>
       </div>
       <div className="items-home">
         {data.length > 0 ? (
