@@ -1,9 +1,17 @@
 import { useState } from "react";
 import axios from "axios";
 import "../assets/styles/Home.css";
+
+// Interface pour structurer les données d'image
 interface HomeData {
   title: string;
   url: string;
+}
+
+// Interface pour chaque élément de la réponse de l'API
+interface Item {
+  data: { title: string }[];
+  links: { href: string }[];
 }
 
 export const Home: React.FC = () => {
@@ -15,7 +23,9 @@ export const Home: React.FC = () => {
       const response = await axios.get(
         `https://images-api.nasa.gov/search?q=${query}`
       );
-      const items = response.data.collection.items.map((item) => ({
+
+      // Utilisation de `Item` pour typer chaque élément
+      const items = response.data.collection.items.map((item: Item) => ({
         title: item.data[0].title,
         url: item.links ? item.links[0].href : "",
       }));

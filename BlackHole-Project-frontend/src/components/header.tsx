@@ -8,6 +8,7 @@ export const Header: React.FC = () => {
         <Link to="/home">Home</Link>
         <Link to="/apod">Apod</Link>
         <Link to="/epic">Epic</Link>
+        <Link to="/mars">Mars</Link>
 
         <div className="animation start-home"></div>
       </nav>

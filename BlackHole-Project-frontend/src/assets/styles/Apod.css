@@ -1,9 +1,7 @@
 .main-apod {
   height: 100vh;
-  background-color: #e74d3c50;
+  background-color: #f15b0584;
   gap: 3vh;
-}
-.main-apod div {
 }
 
 .main-apod h1 {
@@ -49,8 +47,4 @@
   padding: 0 10vh;
   text-align: justify;
   padding-bottom: 100px;
-}
-
-a {
-  padding-top: 50px;
 }
