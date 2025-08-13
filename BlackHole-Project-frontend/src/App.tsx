@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home } from "./page/home";
-import { Apod } from "./page/Apod";
-import { Epic } from "./page/Epic";
+import Home from "./page/Home";
+import Apod from "./page/Apod";
+import Epic from "./page/Epic";
 import Mars from "./page/Mars";
-import "./App.css";
+
 import { Header } from "./components/header";
 
 const App = () => {
